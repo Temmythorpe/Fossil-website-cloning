@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "soliei";
+    src: url("./fonts/soleil/SoleilBold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "soliei";
+    src: url("./fonts/soleil/SoleilRegular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "soliei";
+    src: url("./fonts/soleil/SoleilLight.otf");
+    font-weight: 200;
+}
+
+
+*{
+    font-family: "soliei";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: .25px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header-container {
+    padding: 0px 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.upper-menu-bar{
+    display:flex;
+    flex-direction: row;
+   padding: 8px;
+  justify-content: flex-end;
+}
+
+.upper-menu-bar>h5{
+padding-right: 20px;
+}
+
+.menu-bar{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 23px 0px 35px 0px;
+    padding-bottom: 12px;
+}
+
+.main-banner {
+    background-image: url(./Images/hompage_banner.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-banner .main-text {
+    margin-top: 52px;
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 8px;
+}
+
+.main-banner .subtitle-text {
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.main-banner .button {
+    all: unset;
+    border-radius: 15rem;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0.75rem 35px;
+    font-size: .875rem;
+}
+
+.main-menu-items {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.main-menu-items li {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* .menu-bar img{
+    width: 80px;
+    height: 80px;
+} */
+
+/* .menu-bar ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+} */
+
+.Fossil-icon {
+    /* width: 80px;
+    height: 80px; */
+}
+
+.search-icon {
+    margin-left: 25px;
+    /* width: 10px;
+    height: 20px; */
+}
+
+.sub-menu-bar{
+    display: none;
+}
+
+/*Advert Section*/
+
+.Advert-image {
+    display: flex;
+    flex-direction: row;
+    min-height: 120px;
+}
+
+.Advert-image img{
+ width: 65%;
+}
+
+.center-text{
+   text-align:center;
+   align-items: center;
+   width:35%;
+   font-size: 20px;
+  background-color: bisque;
+  padding-top: 12%;
+}
+
+.center-text>p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: .875rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.center-text>button{
+    background: white;
+    border: 2px solid black;
+   padding: 10px 30px;
+   border-radius:15px;
+  min-height: 45px;
+  height: auto;
+  line-height: 1.25;
+}
+
+.Sub-wristwatch-section{
+    display: flex;
+    flex-direction: row;
+}
+
+ .Model-image img{
+    height: 37rem;
+    width: 33rem;
+    padding-top: 40px;
+}
+
+.wrist-watch-image-box{
+     background-color: black;
+   height:400px;
+   width:500px;
+   padding: 20px;
+   margin: 100px auto;
+   background-size: contain;
+}
