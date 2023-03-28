@@ -109,34 +109,13 @@ padding-right: 20px;
     font-weight: 700;
 }
 
-
-/* .menu-bar img{
-    width: 80px;
-    height: 80px;
-} */
-
-/* .menu-bar ul li{
-    width: 100px;
-    margin: 15px;
-    padding: 15px;
-} */
-
-.Fossil-icon {
-    /* width: 80px;
-    height: 80px; */
-}
-
 .search-icon {
     margin-left: 25px;
-    /* width: 10px;
-    height: 20px; */
 }
 
 .sub-menu-bar{
     display: none;
 }
-
-/*Advert Section*/
 
 .Advert-image {
     display: flex;
@@ -214,7 +193,7 @@ padding-right: 20px;
     margin-right: 9rem;
 }
 
- h3{
+.center_text>h3{
     font-size: 30px;
     margin: 8px 0px;
  }
@@ -255,3 +234,58 @@ button:hover{
    padding-left:100px;
    padding-top: 30px;
 }
+
+.fouth-container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(235, 231, 236);
+    margin-top: 65px;
+}
+
+.center_text{
+    align-items: center;
+    text-align: center;
+   margin-bottom: 2.5%;
+   padding-top: 24px;
+   line-height: 1.25;
+}
+
+.series-of-pictiures{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.section_image{
+   /* max-width: 200px; */
+   width: 24.45%;
+   margin: 1.5px;
+
+}
+
+.Bio_text{
+margin-top: 200px;
+line-height: 1.2;
+padding: 5px;
+}
+
+.Bio_text>h2{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.table_section{
+    border-top: 1px solid #989494;
+    padding-top: 1.25em;
+    line-height: 1.25;
+}
+
+
+.bottom_text{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
