@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "soliei";
-    src: url("./fonts/soleil/SoleilRegular.otf");
+    src: url("./fonts/soleil/SoleilLight.otf");
     font-weight: 400;
 }
 
@@ -18,15 +18,12 @@
 
 
 *{
-    font-family: "soliei";
+    font-family: soliei;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     letter-spacing: .25px;
-}
-
-body{
-    font-family: sans-serif;
+    line-height: 1.5;
 }
 
 .header-container {
@@ -289,3 +286,44 @@ padding: 5px;
     margin-inline-end: 0px;
 }
 
+.footer_sections {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer_item{
+    width: 25%;
+    min-width: 250px;
+    padding: 0 10px;
+}
+
+.footer_item_header{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer_item--detail {
+    height: 1.875rem;
+    margin-bottom: 0.7rem;
+}
+
+.footer_item--detail2{
+    margin-bottom: 0.7rem;  
+}
+
+.connected_detail{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.Entry_box{
+    width:100%;
+    all: unset;
+    border-bottom: 1px solid black;
+}
+
+.Entry_box:focus {
+    border: 1px solid black;
+}
